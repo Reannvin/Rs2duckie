@@ -1,0 +1,15 @@
+yolo_model:
+
+  config_file:
+    name: yolov3-tiny-duckie-multi.cfg
+  weight_file:
+    name: tiny-yolo-duckie.weights
+  threshold:
+    value: 0.1
+  detection_classes:
+    names:
+      - Up
+      - Left
+      - Right
+      - Stop
+      - Obstacle
